@@ -1,0 +1,157 @@
+:root {
+  --blue: #5975ff;
+  --blue2: #3029d9;
+  --white: #ffffff;
+  --navy: #111849;
+  --fwbold: 700;
+  --fwextrabold: 800;
+  --fwsemibold: 600;
+  --fwmedium: 500;
+  --fwregular: 400;
+  --fwlight: 300;
+}
+
+/* navbar */
+
+.navbar {
+  background-color: var(--blue2);
+}
+
+.navbar-nav .nav-item a:hover {
+  text-decoration: underline;
+  color: var(--white);
+  transition: all 0.3s ease;
+  font-weight: var(--fwsemibold);
+}
+
+.navbar-nav .nav-item {
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: var(--fwregular);
+}
+
+.navbar-brand {
+  font-weight: var(--fwbold);
+  font-size: 25px;
+  color: var(--white);
+  margin-left: 30px;
+}
+.navbar-nav .nav-item a {
+  color: var(--white);
+  transition: all 0.3s ease;
+}
+
+.finance-navbar {
+  background: var(--blue2);
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.navbar .navbar-nav .nav-button:hover {
+  background-color: var(--blue2);
+  text-decoration: none;
+}
+
+.navbar .navbar-nav .nav-drop a {
+  color: var(--navy);
+}
+
+.navbar .navbar-nav .nav-drop a:hover {
+  color: #3029d9;
+  text-decoration: none;
+}
+
+/* margin */
+.mt-70 {
+  margin-top: 70px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+/* hero section */
+.header {
+  background: radial-gradient(50% 50% at 50% 50%, #5975ff 0%, #3029d9 100%);
+  padding-top: 40px;
+}
+
+.big-header {
+  font-size: 80px;
+  font-style: normal;
+  font-weight: var(--fwbold);
+  line-height: 90px;
+  color: var(--white);
+  padding-bottom: 30px;
+}
+
+.primary-copy {
+  font-size: 16px;
+  font-weight: var(--fwregular);
+  line-height: 28px;
+  padding-bottom: 10px;
+}
+
+.btn-primary {
+  padding: 12px 32px 12px 32px;
+  background: var(--navy);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: var(--fwregular);
+  border-radius: 5px;
+  border: 0;
+}
+
+.btn-primary:hover {
+  background-color: var(--blue);
+  color: var(--navy);
+}
+
+/* about */
+
+.small-copy {
+  color: var(--blue2);
+  font-size: 24px;
+  font-weight: var(--fwsemibold);
+  line-height: 58px;
+}
+
+.big-about {
+  color: #0b1131;
+  font-size: 48px;
+  font-weight: var(--fwbold);
+  line-height: 68px;
+  padding-bottom: 10px;
+}
+
+.primary-about {
+  color: #a0abb8;
+  font-size: 14px;
+  font-weight: var(--fwmedium);
+  line-height: 28px;
+}
+
+.btn-about {
+  border-radius: 4px;
+  background: #3029d9;
+}
