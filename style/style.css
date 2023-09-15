@@ -3,6 +3,7 @@
   --blue2: #3029d9;
   --white: #ffffff;
   --navy: #111849;
+  --grey: #a0abb8;
   --fwbold: 700;
   --fwextrabold: 800;
   --fwsemibold: 600;
@@ -154,4 +155,93 @@
 .btn-about {
   border-radius: 4px;
   background: #3029d9;
+}
+
+/* services */
+
+.small-services {
+  color: var(--blue2);
+  font-size: 24px;
+  font-weight: var(--fwbold);
+}
+
+.big-services {
+  color: #0b1131;
+  font-size: 48px;
+  font-weight: var(--fwbold);
+}
+
+.services .card {
+  width: 18rem;
+}
+
+.services .card img {
+  width: 88px;
+  height: 88px;
+}
+
+/* .card-firm {
+  background-color: #5975ff;
+  width: 278px;
+  height: 171px;
+  border-radius: 50px 0 50px 50px;
+} */
+
+/* card */
+
+.card-container {
+  display: flex;
+}
+
+.card-1 {
+  border: 0;
+  margin-right: 34px;
+}
+
+.card-2 {
+  background-color: var(--blue2);
+  color: var(--white);
+  margin-right: 34px;
+}
+
+.card-3 {
+  background-color: var(--navy);
+  color: var(--white);
+}
+
+.card-text {
+  color: var(--grey);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+/* features */
+
+.features {
+  background: var(--blue2);
+  padding-bottom: 50px;
+}
+
+.small-features {
+  color: #5975ff;
+  font-weight: var(--fwbold);
+}
+
+.big-features {
+  color: var(--white);
+  font-size: 48px;
+  font-weight: var(--fwbold);
+  padding-bottom: 10px;
+}
+
+.primary-features {
+  color: #a0abb8;
+  font-size: 14px;
+  font-weight: var(--fwmedium);
+  line-height: 28px;
+}
+
+.features img {
+  padding-left: 300px;
 }
