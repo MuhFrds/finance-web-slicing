@@ -226,6 +226,7 @@
 .small-features {
   color: #5975ff;
   font-weight: var(--fwbold);
+  line-height: 28px;
 }
 
 .big-features {
@@ -244,4 +245,32 @@
 
 .features img {
   padding-left: 300px;
+}
+
+/* start now */
+
+.small-startnow {
+  color: var(--blue2);
+  font-size: 24px;
+  font-weight: var(--fwsemibold);
+  line-height: 58px;
+}
+
+.big-startnow {
+  color: #0b1131;
+  font-size: 48px;
+  font-weight: var(--fwbold);
+  line-height: 68px;
+  padding-bottom: 10px;
+}
+
+.primary-startnow {
+  color: #a0abb8;
+  font-size: 14px;
+  font-weight: var(--fwmedium);
+  line-height: 28px;
+}
+
+.startnow img {
+  width: 622px;
 }
