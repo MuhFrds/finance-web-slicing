@@ -19,9 +19,9 @@
 
 .navbar-nav .nav-item a:hover {
   text-decoration: underline;
+  transition: all 0.1s ease;
   color: var(--white);
-  transition: all 0.3s ease;
-  font-weight: var(--fwsemibold);
+  font-weight: var(--fwmedium);
 }
 
 .navbar-nav .nav-item {
@@ -43,8 +43,8 @@
 
 .finance-navbar {
   background: var(--blue2);
-  padding-bottom: 50px;
-  padding-top: 20px;
+  /* padding-bottom: 50px;
+  padding-top: 20px; */
 }
 
 .navbar .navbar-nav .nav-button:hover {
@@ -93,7 +93,7 @@
 /* hero section */
 .header {
   background: radial-gradient(50% 50% at 50% 50%, #5975ff 0%, #3029d9 100%);
-  padding-top: 40px;
+  padding-top: 170px;
 }
 
 .big-header {
