@@ -20,7 +20,7 @@
 
 .navbar-nav .nav-item a:hover {
   text-decoration: underline;
-  transition: all 0.1s ease;
+  transition: all 0.3s ease;
   color: var(--white);
   font-weight: var(--fwmedium);
 }
@@ -37,13 +37,23 @@
   color: var(--white);
   margin-left: 30px;
 }
+
+.navbar-brand:hover {
+  color: white;
+}
+
 .navbar-nav .nav-item a {
-  color: var(--white);
-  transition: all 0.3s ease;
+  color: #fff;
+  /* font-family: Poppins; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  /* transition: all 0.3s ease; */
 }
 
 .finance-navbar {
-  background: var(--blue2);
+  /* background: var(--blue2); */
   /* padding-bottom: 50px;
   padding-top: 20px; */
 }
@@ -111,20 +121,23 @@
   font-weight: var(--fwregular);
   line-height: 28px;
   padding-bottom: 10px;
+  color: var(--white);
 }
 
 .btn-primary {
-  padding: 12px 32px 12px 32px;
+  /* padding: 10px 32px 10px 32px; */
+  width: 166px;
+  height: 39px;
+  border-radius: 4px;
   background: var(--navy);
   color: var(--white);
   font-size: 16px;
   font-weight: var(--fwregular);
-  border-radius: 5px;
   border: 0;
 }
 
 .btn-primary:hover {
-  background-color: var(--blue);
+  background-color: white;
   color: var(--navy);
 }
 
@@ -162,13 +175,19 @@
 .small-services {
   color: var(--blue2);
   font-size: 24px;
-  font-weight: var(--fwbold);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 68px; /* 283.333% */
 }
 
 .big-services {
   color: #0b1131;
+  text-align: center;
+  font-family: Poppins;
   font-size: 48px;
-  font-weight: var(--fwbold);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68px; /* 141.667% */
 }
 
 .services .card {
@@ -216,6 +235,15 @@
   line-height: 28px;
 }
 
+.card-title-0 {
+  /* color: white; */
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 68px; */
+}
+
 /* features */
 
 .features {
@@ -224,23 +252,52 @@
 }
 
 .small-features {
-  color: #5975ff;
+  /* color: #5975ff;
   font-weight: var(--fwbold);
-  line-height: 28px;
+  line-height: 28px; */
+  color: #5975ff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 68px; /* 283.333% */
 }
 
 .big-features {
-  color: var(--white);
+  /* color: var(--white);
   font-size: 48px;
   font-weight: var(--fwbold);
-  padding-bottom: 10px;
+  padding-bottom: 10px; */
+  color: #fff;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68px; /* 141.667% */
 }
 
 .primary-features {
-  color: #a0abb8;
+  /* color: #a0abb8;
   font-size: 14px;
   font-weight: var(--fwmedium);
-  line-height: 28px;
+  line-height: 28px; */
+  color: #b8c6d6;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 200% */
+}
+
+.btn-primary-features {
+  width: 170px;
+  height: 39px;
+  color: #fff;
+  background-color: var(--navy);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .features img {
@@ -251,9 +308,11 @@
 
 .small-startnow {
   color: var(--blue2);
+  font-family: Poppins;
   font-size: 24px;
-  font-weight: var(--fwsemibold);
-  line-height: 58px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 68px; /* 283.333% */
 }
 
 .big-startnow {
@@ -273,4 +332,36 @@
 
 .startnow img {
   width: 622px;
+}
+
+/* card services */
+
+.card-4 {
+  margin-right: 34px;
+}
+
+.card-title-1 {
+  color: #3029d9;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28px; /* 200% */
+}
+
+.card-title {
+  color: #0b1131;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px; /* 141.667% */
+}
+
+.btn-card {
+  border-radius: 4px;
+  background: #3029d9;
+  color: var(--white);
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
