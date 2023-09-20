@@ -19,7 +19,7 @@
 }
 
 .navbar-nav .nav-item a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   transition: all 0.3s ease;
   color: var(--white);
   font-weight: var(--fwmedium);
@@ -52,11 +52,11 @@
   /* transition: all 0.3s ease; */
 }
 
-.finance-navbar {
-  /* background: var(--blue2); */
-  /* padding-bottom: 50px;
-  padding-top: 20px; */
-}
+/* .finance-navbar {
+  background: var(--blue2);
+  padding-bottom: 50px;
+  padding-top: 20px;
+} */
 
 .navbar .navbar-nav .nav-button:hover {
   background-color: var(--blue2);
