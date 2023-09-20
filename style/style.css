@@ -18,11 +18,28 @@
   background-color: var(--blue2);
 }
 
-.navbar-nav .nav-item a:hover {
-  /* text-decoration: underline; */
+/* .navbar-nav .nav-item a:hover {
+  text-decoration: underline;
   transition: all 0.3s ease;
   color: var(--white);
   font-weight: var(--fwmedium);
+} */
+
+.navbar-nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0; /* Tetapkan ke 0 untuk garis bawah dekat teks */
+  width: 100%;
+  height: 2px; /* Mengatur ketebalan garis bawah */
+  background-color: #fff;
+  transform: scaleX(0); /* Awalnya tidak terlihat */
+  transform-origin: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-nav a:hover::after {
+  transform: scaleX(1); /* Munculkan garis bawah saat hover */
 }
 
 .navbar-nav .nav-item {
@@ -194,7 +211,15 @@
   width: 18rem;
 }
 
-.services .card img {
+.services .card-1 img {
+  width: 88px;
+  height: 88px;
+}
+.services .card-2 img {
+  width: 88px;
+  height: 88px;
+}
+.services .card-3 img {
   width: 88px;
   height: 88px;
 }
@@ -291,13 +316,16 @@
 
 .btn-primary-features {
   width: 170px;
-  height: 39px;
+  height: 36px;
   color: #fff;
   background-color: var(--navy);
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: normal;
+}
+.btn-primary-features:hover {
+  color: var(--navy);
+  background-color: white;
 }
 
 .features img {
@@ -364,4 +392,52 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+/* footer */
+
+footer {
+  background: var(--navy);
+  padding: 86px 0;
+}
+.single-content {
+  text-align: center;
+  padding: 115px 0;
+}
+.single-box p {
+  /* color: #fff;
+  line-height: 1.9; */
+}
+.single-box h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}
+.single-box .card-area i {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.single-box ul {
+  list-style: none;
+  padding: 0;
+}
+.single-box ul li a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 2.5;
+  font-weight: 100;
+}
+.single-box h2 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+#basic-addon2 {
+  background: #fe1e4f;
+  color: #fff;
+}
+.socials i {
+  font-size: 18px;
+  margin-right: 15px;
 }
