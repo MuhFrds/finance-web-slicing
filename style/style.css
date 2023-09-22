@@ -425,6 +425,10 @@ footer {
   line-height: normal;
 }
 
+.single-box-1 a {
+  text-decoration: none;
+  color: var(--navy);
+}
 /* .single-box h3 {
   font-size: 16px;
   font-weight: 700;
