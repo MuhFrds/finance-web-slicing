@@ -4,6 +4,7 @@
   --white: #ffffff;
   --navy: #111849;
   --grey: #a0abb8;
+  --grey2: #b8c6d6;
   --fwbold: 700;
   --fwextrabold: 800;
   --fwsemibold: 600;
@@ -18,28 +19,11 @@
   background-color: var(--blue2);
 }
 
-/* .navbar-nav .nav-item a:hover {
+.navbar-nav .nav-item a:hover {
   text-decoration: underline;
   transition: all 0.3s ease;
   color: var(--white);
   font-weight: var(--fwmedium);
-} */
-
-.navbar-nav a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0; /* Tetapkan ke 0 untuk garis bawah dekat teks */
-  width: 100%;
-  height: 2px; /* Mengatur ketebalan garis bawah */
-  background-color: #fff;
-  transform: scaleX(0); /* Awalnya tidak terlihat */
-  transform-origin: center;
-  transition: transform 0.3s ease-in-out;
-}
-
-.navbar-nav a:hover::after {
-  transform: scaleX(1); /* Munculkan garis bawah saat hover */
 }
 
 .navbar-nav .nav-item {
@@ -254,7 +238,7 @@
 }
 
 .card-text {
-  color: var(--grey);
+  color: #b8c6d6;
   font-size: 14px;
   font-weight: 500;
   line-height: 28px;
