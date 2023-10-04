@@ -204,6 +204,11 @@
   background: #3029d9;
 }
 
+.btn-about:hover {
+  background-color: #0b1131;
+  color: #fff;
+}
+
 /* services */
 
 .small-services {
@@ -305,9 +310,16 @@
 }
 
 .card-text {
-  color: #b8c6d6;
+  color: var(--grey);
   font-size: 14px;
   font-weight: 500;
+  line-height: 28px;
+}
+
+.card-text-p {
+  color: var(--grey);
+  /* font-size: 14px; */
+  /* font-weight: 500; */
   line-height: 28px;
 }
 
