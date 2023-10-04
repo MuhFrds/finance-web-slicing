@@ -82,6 +82,10 @@
   margin-right: 10px;
 }
 
+.mr-33 {
+  margin-right: 32px;
+}
+
 .mr-30 {
   margin-right: 30px;
 }
@@ -210,16 +214,18 @@
 
 .card-firm {
   background-color: #5975ff;
-  width: 278px;
-  height: 171px;
-  border-radius: 50px 0 50px 50px;
+  width: 270px;
+  height: 150px;
+  border-radius: 70px 0 70px 70px;
+  margin-top: 100px;
 }
 .card-firm-right {
   background-color: #5975ff;
-  width: 278px;
-  height: 171px;
-  border-radius: 50px 50px 50px 0px;
+  width: 270px;
+  height: 150px;
+  border-radius: 70px 70px 70px 0px;
   margin-left: 20px;
+  margin-top: 50px;
 }
 
 .card-firm .font-bold {
@@ -237,6 +243,7 @@
 .card-firm .font-p {
   padding-left: 40px;
 }
+
 /* card */
 
 .card-container {
@@ -477,4 +484,17 @@ footer {
 
 .text-contact {
   padding-top: 150px;
+}
+
+.single-box-2 img {
+  height: 25px;
+  margin-left: 20px;
+}
+
+.help li {
+  list-style: none;
+  margin-left: 30px;
+}
+.help li a {
+  text-decoration: none;
 }
