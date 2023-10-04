@@ -214,7 +214,29 @@
   height: 171px;
   border-radius: 50px 0 50px 50px;
 }
+.card-firm-right {
+  background-color: #5975ff;
+  width: 278px;
+  height: 171px;
+  border-radius: 50px 50px 50px 0px;
+  margin-left: 20px;
+}
 
+.card-firm .font-bold {
+  padding-left: 40px;
+  padding-top: 30px;
+}
+.card-firm-right .font-bold {
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+.card-firm-right .font-p {
+  padding-left: 40px;
+}
+.card-firm .font-p {
+  padding-left: 40px;
+}
 /* card */
 
 .card-container {
