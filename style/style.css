@@ -243,18 +243,19 @@
 
 .card-firm {
   background-color: #3029d94d;
-  width: 270px;
+  width: 250px;
   height: 150px;
   border-radius: 70px 0 70px 70px;
-  margin-top: 100px;
+  margin-top: 250px;
+  margin-left: -60px;
 }
 .card-firm-right {
   background-color: #3029d94d;
-  width: 270px;
+  width: 250px;
   height: 150px;
   border-radius: 70px 70px 70px 0px;
   margin-left: 20px;
-  margin-top: 50px;
+  margin-top: 200px;
 }
 
 .card-firm .font-bold {
