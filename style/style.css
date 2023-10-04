@@ -205,8 +205,10 @@
 }
 
 .btn-about:hover {
-  background-color: #0b1131;
-  color: #fff;
+  background: #3029d9;
+  /* background-color: #0b1131; */
+  /* color: #fff; */
+  color: #0b1131;
 }
 
 /* services */
