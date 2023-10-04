@@ -525,7 +525,7 @@ footer {
 }
 
 .single-box-2 img {
-  height: 25px;
+  /* height: 25px; */
   margin-left: 20px;
 }
 
@@ -533,6 +533,16 @@ footer {
   list-style: none;
   margin-left: 30px;
 }
+
+.single-box .copyright-1 {
+  color: var(--grey);
+}
+
+.copyright {
+  color: var(--grey);
+}
+
 .help li a {
   text-decoration: none;
+  color: var(--grey);
 }
