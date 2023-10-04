@@ -19,12 +19,30 @@
   background-color: var(--blue2);
 }
 
-.navbar-nav .nav-item a:hover {
+/* .navbar-nav .nav-item a:hover {
   text-decoration: underline;
   transition: all 0.3s ease;
   color: var(--white);
   font-weight: var(--fwmedium);
-}
+} */
+
+/* .nav-link:after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100px;
+  height: 3px;
+  background: #ffffff;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+} */
+
+/* .nav-link:hover::after {
+  color: #ffffff;
+  transform: scaleX(1);
+} */
 
 .navbar-nav .nav-item {
   padding-right: 10px;
