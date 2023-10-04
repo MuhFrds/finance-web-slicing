@@ -242,14 +242,14 @@
 }
 
 .card-firm {
-  background-color: #5975ff;
+  background-color: #3029d94d;
   width: 270px;
   height: 150px;
   border-radius: 70px 0 70px 70px;
   margin-top: 100px;
 }
 .card-firm-right {
-  background-color: #5975ff;
+  background-color: #3029d94d;
   width: 270px;
   height: 150px;
   border-radius: 70px 70px 70px 0px;
@@ -260,17 +260,25 @@
 .card-firm .font-bold {
   padding-left: 40px;
   padding-top: 30px;
+  color: var(--blue2);
+  font-weight: var(--fwbold);
 }
 .card-firm-right .font-bold {
   padding-left: 40px;
   padding-top: 30px;
+  color: var(--blue2);
+  font-weight: var(--fwbold);
 }
 
 .card-firm-right .font-p {
   padding-left: 40px;
+  color: var(--blue2);
+  font-weight: var(--fwsemibold);
 }
 .card-firm .font-p {
   padding-left: 40px;
+  color: var(--blue2);
+  font-weight: var(--fwsemibold);
 }
 
 /* card */
